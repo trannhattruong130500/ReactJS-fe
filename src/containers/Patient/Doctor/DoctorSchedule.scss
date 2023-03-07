@@ -1,0 +1,80 @@
+.doctor-schedule-container {
+    border-right: 1px solid #ddd;
+    min-height  : 95%;
+
+    .all-schedule {
+        select {
+            background   : transparent;
+            border       : none;
+            color        : #337ab7;
+            border-bottom: 1px solid #999;
+            font-weight  : bold;
+            padding      : 5px;
+            outline      : none;
+            cursor       : pointer;
+
+            option {
+                cursor: pointer;
+            }
+        }
+    }
+
+    .all-available-time {
+        .text-calendar {
+            margin-top: 10px;
+
+            span {
+                font-size     : 14px;
+                text-transform: uppercase;
+                font-weight   : lighter;
+                outline       : none;
+                font-weight   : bold;
+
+                i {
+                    margin-right: 5px;
+                }
+            }
+        }
+
+        .time-content {
+
+            .time-content-btns {
+                display      : flex;
+                gap          : 10px;
+                flex-wrap    : wrap;
+                margin-top   : 10px;
+                margin-bottom: 15px;
+
+                button {
+                    padding         : 8px 4px;
+                    border          : 1px solid #eee;
+                    outline         : none;
+                    background-color: #eee;
+                    border-radius   : 5px;
+                    min-width       : 22%;
+                    background-color: #eedd4f;
+
+                    &:hover {
+                        background-color: #45c3d2;
+                    }
+                }
+            }
+
+            .book-free {
+                padding-bottom: 10px;
+
+                span {
+                    font-size  : 13px;
+                    font-style : italic;
+                    font-weight: 600;
+                }
+            }
+
+            .no-schedule {
+                margin-top: 15px;
+                font-size : 15px;
+                font-style: italic;
+            }
+        }
+    }
+}

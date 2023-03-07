@@ -1,0 +1,99 @@
+.doctor-extra-infor-container {
+    padding-left: 15px;
+
+    .content-up {
+        .text-address {
+            text-transform: uppercase;
+            color         : #666;
+            font-weight   : bold;
+            font-size     : 13px;
+            padding-bottom: 5px;
+        }
+
+        .name-clinic {
+            font-size     : 13px;
+            font-weight   : bold;
+            padding-bottom: 5px;
+        }
+
+        .detail-address {
+            padding-bottom: 10px;
+            font-size     : 13px;
+        }
+    }
+
+    .content-down {
+        .short-infor {
+            .title-price-show {
+                text-transform: uppercase;
+                color         : #666;
+                font-weight   : bold;
+                font-size     : 13px;
+                padding-bottom: 5px;
+
+                .currency {
+                    padding-left: 5px;
+                    color       : black;
+                    font-weight : bold;
+                }
+            }
+
+            .detail {
+                cursor     : pointer;
+                color      : rgb(24, 180, 227);
+                font-size  : 13px;
+                font-weight: bold;
+            }
+        }
+
+        .title-price-hide {
+            text-transform: uppercase;
+            color         : #666;
+            font-weight   : bold;
+            font-size     : 13px;
+            padding-bottom: 5px;
+        }
+
+        .detail-infor {
+            border : 2px solid #c5bebe;
+            padding: 5px;
+
+            .price {
+                padding-bottom: 2px;
+
+                .left {
+                    font-size: 15px;
+                }
+
+                .right {
+                    float: right;
+                }
+            }
+
+            .note {
+                font-size: 13px;
+                color    : #666;
+            }
+        }
+
+        .payment {
+            background-color: #ddd;
+            border-left     : 2px solid #c5bebe;
+            border-right    : 2px solid #c5bebe;
+            border-bottom   : 2px solid #c5bebe;
+            padding         : 5px;
+            margin-bottom   : 5px;
+        }
+
+        .hide-price {
+            padding-bottom: 10px;
+
+            span {
+                cursor     : pointer;
+                color      : rgb(24, 180, 227);
+                font-size  : 13px;
+                font-weight: bold;
+            }
+        }
+    }
+}
